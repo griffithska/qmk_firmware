@@ -18,8 +18,8 @@
  /* Enable NUM_LOCK_LED_INDEX */
 #define NUM_LOCK_LED_INDEX 37
 
- #define USB_POLLING_INTERVAL_MS 10 //could be the next thing to try?
- #define USB_SUSPEND_WAKEUP_DELAY 200
+ //#define USB_POLLING_INTERVAL_MS 10       //in keyboard.json
+ //#define USB_SUSPEND_WAKEUP_DELAY 200     //in keyboard.json
 
  #define DOUBLE_TAP_SHIFT_TURNS_ON_CAPS_WORD
  #define BOTH_SHIFTS_TURNS_ON_CAPS_WORD

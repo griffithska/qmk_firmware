@@ -1,0 +1,26 @@
+{
+    "usb":{
+        "device_version": "2.0.3",
+        "polling_interval": 10
+    },
+
+    "features": {
+        "bootmagic": true,
+        "mousekey": false,
+        "extrakey": true,
+        "nkro": false,
+        "rgb_matrix": true,
+        "encoder": true,
+        "dip_switch": true
+    },
+
+    "rgb_matrix": {
+        "default": {
+            "animation": "solid_color",
+            "hue": 180,
+            "saturation": 100,
+            "value": 100
+        }
+    }
+
+}
