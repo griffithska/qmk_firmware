@@ -2,13 +2,20 @@
     "keyboard_name": "Keychron V6",
     "manufacturer": "Keychron",
     "url": "https://github.com/Keychron",
-    "maintainer": "lalalademaxiya1",
+    "maintainer": "griffithska",
     "usb": {
         "vid": "0x3434",
         "pid": "0x0361",
-        "device_version": "1.0.0"
+        "device_version": "2.0.3",
+        "polling_interval": 10
     },
     "rgb_matrix": {
+        "default": {
+            "animation": "solid_color",
+            "hue": 180,
+            "saturation": 100,
+            "value": 100
+        },
         "driver": "snled27351"
     },
     "encoder": {
@@ -20,9 +27,9 @@
     "bootloader": "stm32-dfu",
     "features": {
         "bootmagic": true,
-        "mousekey": true,
+        "mousekey": false,
         "extrakey": true,
-        "nkro": true,
+        "nkro": false,
         "rgb_matrix": true,
         "encoder": true,
         "dip_switch": true
