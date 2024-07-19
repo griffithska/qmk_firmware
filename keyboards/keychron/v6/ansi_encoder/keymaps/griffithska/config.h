@@ -16,7 +16,7 @@
  #pragma once
  
  /* Enable NUM_LOCK_LED_INDEX */
-#define NUM_LOCK_LED_INDEX 37
+//#define NUM_LOCK_LED_INDEX 37
 
  //#define USB_POLLING_INTERVAL_MS 10       //in keyboard.json
  //#define USB_SUSPEND_WAKEUP_DELAY 200     //in keyboard.json

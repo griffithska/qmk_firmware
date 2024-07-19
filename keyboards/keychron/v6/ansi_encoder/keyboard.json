@@ -12,9 +12,9 @@
     "rgb_matrix": {
         "default": {
             "animation": "solid_color",
-            "hue": 180,
-            "sat": 100,
-            "val": 100
+            "hue": 128,
+            "sat": 255,
+            "val": 255
         },
         "driver": "snled27351"
     },

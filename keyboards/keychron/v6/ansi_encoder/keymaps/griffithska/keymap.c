@@ -152,7 +152,7 @@ const uint16_t PROGMEM encoder_map[][1][2] = {
 };
 #endif // ENCODER_MAP_ENABLE
 
-
+/*
 bool rgb_matrix_indicators_advanced_user(uint8_t led_min, uint8_t led_max) {
     // RGB_MATRIX_INDICATOR_SET_COLOR(index, red, green, blue);
 #    if defined(CAPS_LOCK_LED_INDEX)
@@ -183,4 +183,4 @@ bool rgb_matrix_indicators_advanced_user(uint8_t led_min, uint8_t led_max) {
 #    endif // NUM_LOCK_LED_INDEX
     return true;
 }
- 
+*/
